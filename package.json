@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "canvas-confetti": "^1.5.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.11",
+    "postcss": "^8.4.14"
   }
 }
