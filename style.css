@@ -123,11 +123,12 @@ h1 {
 .between__small--screen {
   display: none;
 }
+
 @media screen and (max-width: 768px) {
   main {
     flex-direction: column;
   }
-  .left{
+  .left {
     width: auto;
   }
   .right {
@@ -169,7 +170,7 @@ h1 {
     font-size: 2rem;
     margin: 1rem;
   }
-  .message{
+  .message {
     margin-bottom: 1rem;
     color: red;
   }

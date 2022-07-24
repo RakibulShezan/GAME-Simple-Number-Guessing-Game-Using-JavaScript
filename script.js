@@ -8,6 +8,8 @@ const displayMessage = message => {
   document.querySelector('.message').textContent = message;
 };
 
+/* Function to check all the game logics */
+
 function guessMatch() {
   const guess = Number(document.querySelector('.guess').value);
 
@@ -47,9 +49,12 @@ function guessMatch() {
   }
 }
 
+/* Event Listener when user clicks on the Check guessed value button */
 document.querySelector('.check').addEventListener('click', function () {
   guessMatch();
 });
+
+/* Event Listener when user presses the ENTER button */
 document.querySelector('.guess').addEventListener('keypress', function (e) {
   if (e.keyCode === 13) {
     e.preventDefault();
