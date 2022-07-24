@@ -20,7 +20,7 @@ function guessMatch() {
     displayMessage('🥳 Correct Number!');
     confetti({
       spread: 200,
-      particleCount: 200,
+      particleCount: 300,
     });
 
     document.querySelector('.number').textContent = secretNumber;
